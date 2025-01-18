@@ -6,5 +6,5 @@ src = "src"
 title = "Force Inclusion Mechanism"
 
 [output.html]
-git-repository-url = "git@github.com:rollup-fortress/uncensored-book.git"
+git-repository-url = "https://github.com/rollup-fortress/uncensored-book"
 git-repository-icon = "fa-github" 
