@@ -1,0 +1,10 @@
+[book]
+authors = ["Nic Lin", "Anton Cheng"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Force Inclusion Mechanism"
+
+[output.html]
+git-repository-url = "git@github.com:rollup-fortress/uncensored-book.git"
+git-repository-icon = "fa-github" 
