@@ -8,6 +8,8 @@ title = "Force Inclusion Mechanism"
 [output.html]
 git-repository-url = "https://github.com/rollup-fortress/uncensored-book"
 git-repository-icon = "fa-github" 
+site-url = "/rollup-fortress/"
+copy-images = true
 
 [preprocessor.toc]
 command = "mdbook-toc"

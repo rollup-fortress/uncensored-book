@@ -2,9 +2,9 @@
 
 Force Inclusion Mechanism allows user to force include their transaction by interacting directly with the contracts on L1 instead of going through the L2 sequencer. Hence L2 sequencer won't be able to censor users unless the sequencer also tries to do censorship on L1.
 
-![Censored by L2 sequencer](/assets/censored-by-l2-sequencer.png)
+![Censored by L2 sequencer](../assets/censored-by-l2-sequencer.png)
 
-![Force Include on L1](/assets/force-include-on-l1.png)
+![Force Include on L1](../assets/force-include-on-l1.png)
 
 
 Interested reader can read this (Chinese) article on [how Force Inlcusion works and how it is implemented on different L2s](https://medium.com/taipei-ethereum-meetup/rollup-force-inclusion-mechanism-and-implementations-overview-0853ded0dffa).
