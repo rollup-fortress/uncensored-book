@@ -1,29 +1,6 @@
 # Force Inclusion on Optimism
 
-Table of Contents:
-
-- [Force Inclusion on Optimism](#force-inclusion-on-optimism)
-  - [Caveats](#caveats)
-  - [Flow](#flow)
-    - [Contracts Used](#contracts-used)
-    - [0: Craft a normal (unsigned) L2 transaction](#0-craft-a-normal-unsigned-l2-transaction)
-    - [1: Request](#1-request)
-      - [Parameters](#parameters)
-    - [2. Transaction ID](#2-transaction-id)
-      - [Computing Source Hash](#computing-source-hash)
-      - [Computing L2 Transaction Hash](#computing-l2-transaction-hash)
-    - [3. Track Progess](#3-track-progess)
-    - [4. Complete Inclusion](#4-complete-inclusion)
-  - [Gas](#gas)
-    - [L2 Gas Limit](#l2-gas-limit)
-    - [L2 Gas Price](#l2-gas-price)
-  - [Transaction Replacement](#transaction-replacement)
-  - [Reasons Force Inclusion transaction could fail](#reasons-force-inclusion-transaction-could-fail)
-    - [1. Not enough ETH to transfer](#1-not-enough-eth-to-transfer)
-    - [2. Not enough L2 gas limit](#2-not-enough-l2-gas-limit)
-    - [3. L2 execution failed](#3-l2-execution-failed)
-  - [Side effects of Force Inclusion transaction](#side-effects-of-force-inclusion-transaction)
-    - [EOA's nonce on L2 will be incremented](#eoas-nonce-on-l2-will-be-incremented)
+<!-- toc -->
 
 ---
 
@@ -128,7 +105,7 @@ This is the Transaction ID used to track the progess of the force inclusion tran
 
 ### 3. Track Progess
 
-With the computed L2 transaction hash, you can query APIs/RPCs to chekc its status or go to [explorer](https://optimistic.etherscan.io/txsEnqueue) and wait for the transaction to show up. Or if you are using libraries like Viem, you can use [`waitForTransactionReceipt`](waitForTransactionReceipt). But note that it could take up to 12 hours for the transaction to be included.
+With the computed L2 transaction hash, you can query APIs/RPCs to chekc its status or go to [explorer](https://optimistic.etherscan.io/txsEnqueue) and wait for the transaction to show up. Or if you are using libraries like Viem, you can use `waitForTransactionReceipt`. But note that it could take up to 12 hours for the transaction to be included.
 
 ---
 

@@ -1,29 +1,6 @@
 # Force Inclusion on Arbitrum
 
-Table of Contents:
-
-- [Force Inclusion on Arbitrum](#force-inclusion-on-arbitrum)
-  - [Caveats](#caveats)
-  - [Flow](#flow)
-    - [Contracts Used](#contracts-used)
-    - [0: Sign Normal L2 Transaction](#0-sign-normal-l2-transaction)
-    - [1: Request](#1-request)
-      - [Parameters](#parameters)
-    - [2. Transaction ID](#2-transaction-id)
-    - [3. Track Progess](#3-track-progess)
-    - [4. Complete Inclusion](#4-complete-inclusion)
-      - [Parameters](#parameters-1)
-      - [Code Walkthrough](#code-walkthrough)
-  - [Gas](#gas)
-    - [L2 Gas Limit and L2 Gas Price](#l2-gas-limit-and-l2-gas-price)
-  - [Transaction Replacement](#transaction-replacement)
-  - [Reasons Force Inclusion transaction could fail](#reasons-force-inclusion-transaction-could-fail)
-    - [1. Not enough ETH to transfer](#1-not-enough-eth-to-transfer)
-    - [2. Not enough L2 gas limit](#2-not-enough-l2-gas-limit)
-    - [3. Gas price too low](#3-gas-price-too-low)
-    - [4. L2 execution failed](#4-l2-execution-failed)
-  - [Side effects of Force Inclusion transaction](#side-effects-of-force-inclusion-transaction)
-    - [EOA's nonce on L2 will be incremented](#eoas-nonce-on-l2-will-be-incremented)
+<!-- toc -->
 
 ---
 
@@ -89,7 +66,7 @@ Since the user is force including his **signed normal L2 transaction**, naturall
 
 ### 3. Track Progess
 
-With the L2 transaction hash, you can query APIs/RPCs to chekc its status or query the [explorer](https://arbiscan.io). Or if you are using libraries like Viem, you can use [`waitForTransactionReceipt`](waitForTransactionReceipt). But note that it could take up to 24 hours for the transaction to be included.
+With the L2 transaction hash, you can query APIs/RPCs to chekc its status or query the [explorer](https://arbiscan.io). Or if you are using libraries like Viem, you can use `waitForTransactionReceipt. But note that it could take up to 24 hours for the transaction to be included.
 
 ---
 
