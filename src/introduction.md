@@ -29,7 +29,7 @@ If Uncensored Mode is activated, user will be able to directly force include tra
 The video first shows user sending a normal transaction to the L2 (Optimism Sepolia) sequencer. Next, when Uncensored Mode is activated, user will directly send force inclusion transaction to L1 (Sepolia) and eventually the transaction will be (force) included in a L2 (Optimism Sepolia) block.
 
 <video width="100%" controls>
-    <source src="assets/videos/Uncensored-Mode.mp4" type="video/mp4">
+    <source src="/assets/videos/Uncensored-Mode.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -40,6 +40,6 @@ It can happen that you send your transaction to the L2 sequencer as usual but th
 In the video, we intentionally send a transaction with extreme low gas price so it will not be included by the L2 sequencer, to mimic the situation where the sequencer is down or is secretly censoring. Then we hit the Force Inclusion button and force include our transaction on L1.
 
 <video width="100%" controls>
-    <source src="assets/videos/Force-Include-Stuck-Transactions.mp4" type="video/mp4">
+    <source src="/assets/videos/Force-Include-Stuck-Transactions.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
