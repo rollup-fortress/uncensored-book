@@ -12,13 +12,21 @@ Here we will go over different ways to use the Uncensored Frontend.
 
 Just like Safe Wallet's Transaction Builder, you can build your transaction on the Uncensored Frontend, supplying it with the contract address you want to interact with and its ABI. The frontend will try to fetch the ABI from explorer, if it fails, you can manually supply it.
 
-Next you can click the `Select Function` button to select the function you want to call from the dropdown, fill in the parameters, and click `Generate Data`.
+![Send Transaction - Address and Compose Data](../assets/send-transaction-address-and-compose-data.png)
+
+![Send Transaction - ABI auto fetched and Proxy](../assets/send-transaction-abi-auto-and-proxy.png)
+
+Next you can click the `Select function` button to select the function you want to call from the dropdown, fill in the parameters, and click `Generate Data`.
+
+![Send Transaction - Select Function and Fill in Parameters](../assets/send-transaction-function-and-parameters.png)
 
 If your transaction requires sending ETH along the way, remember to fill in the `value (ETH)` field.
 
 Lastly, the tricky part is to estimate the gas limit of this transaction. Right now you have to fill in the gas limit manually. In the future, we plan to support automatic gas estimation.
 
-Once all the fields are filled in, click `Force Include` to send out the transaction.
+![Send Transaction - Value and Gas Limit](../assets/send-transaction-value-and-gas-limit.png)
+
+Once all the fields are filled in, click `Submit` to send out the transaction.
 
 ---
 
@@ -35,3 +43,5 @@ If your wallet does not show specific fields like `data` and the transaction als
 ### 2.2 Interact with DApp and copy from prompted transaction request
 
 If you are interacting with a DApp, for example, interacting with Uniswap frontend to execute a swap. After you have chosen the pair and the amount and clicked `Swap`, your wallet will be prompted with transaction signing request. Then you can copy the `to`, `value`, `data`, and `gasLimit` fields from the transaction viewing page.
+
+![Send Transaction - Copy from DApp Transaction](../assets/send-transaction-copy-from-dapp-transaction.png)
