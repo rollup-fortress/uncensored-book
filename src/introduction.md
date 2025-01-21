@@ -14,7 +14,9 @@ Force Inclusion is a mechanism that allows a L2 user to force transactions into 
 
 ## Force Inclusion Wallet Demo
 
-We have prepared two videos to show you how you will be using Force Inclusion if your wallet supports it.
+We make some modifications to the great Rabby Wallet and prepare two videos to show you how you will be using Force Inclusion if your wallet supports it.
+
+You can check out the Rabby Wallet modifiication we made to support the force inclusion feature [here](https://github.com/NIC619/Rabby/pull/1).
 
 ### 1. Uncensored Mode
 
