@@ -30,9 +30,9 @@ Once all the fields are filled in, click `Submit` to send out the transaction.
 
 ---
 
-## 2. Copy from existed transaction
+## 2. Copy from existing transaction
 
-It could happen that you already sent a transaction but it never gets included or if you find it difficult to build the transaction from scratch. In either case, you can copy the fields from an existed transaction.
+It could happen that you already sent a transaction but it never gets included or if you find it difficult to build the transaction from scratch. In either case, you can copy the fields from an existing transaction.
 
 ### 2.1 Copy from a stuck transaction
 
