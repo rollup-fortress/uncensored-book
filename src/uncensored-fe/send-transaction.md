@@ -1,11 +1,5 @@
 # Uncensored Frontend - Send Transaction
 
-If user's wallet does not support [Uncensored SDK](../uncensored-sdk/overview.md), he can use the Uncensored Frontend to force include his transactions.
-
-**NOTE: Only Optimism Chains are supported right now**
-
----
-
 Here we will go over different ways to use the Uncensored Frontend.
 
 ## 1. Build your transaction from scratch
@@ -33,6 +27,8 @@ Once all the fields are filled in, click `Submit` to send out the transaction.
 ## 2. Copy from existing transaction
 
 It could happen that you already sent a transaction but it never gets included or if you find it difficult to build the transaction from scratch. In either case, you can copy the fields from an existing transaction.
+
+![Send Transaction - Copy from Existing Transaction](../assets/send-transaction-copy-from-existing-transaction.png)
 
 ### 2.1 Copy from a stuck transaction
 

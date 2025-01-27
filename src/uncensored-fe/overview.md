@@ -1,5 +1,9 @@
 # Uncensored Frontend
 
+If your wallet does not support [Uncensored SDK](../uncensored-sdk/overview.md), you can use the Uncensored Frontend to force include your transactions.
+
+**NOTE: Only Optimism Chains are supported right now**
+
 You can try out the Uncensored Frontend [here](https://rollup-uncensored.vercel.app/).
 
 ## How to use
