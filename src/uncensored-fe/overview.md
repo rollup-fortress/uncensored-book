@@ -4,7 +4,7 @@ If your wallet does not support [Uncensored SDK](../uncensored-sdk/overview.md),
 
 **NOTE: Only Optimism Chains are supported right now**
 
-You can try out the Uncensored Frontend [here](https://rollup-uncensored.vercel.app/).
+You can try out the Uncensored Frontend [here](https://www.rollupfortress.xyz/). ([Testnet version](https://testnet.rollupfortress.xyz/))
 
 ## How to use
 
