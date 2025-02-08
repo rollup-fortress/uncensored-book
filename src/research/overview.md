@@ -51,4 +51,4 @@ Check out [Force Inclusion on Arbitrum](./arbitrum-force-inclusion.md)
 
 ___
 
-After you finish reading the above, you can check out the [Uncensored SDK](../uncensored-sdk/overview.md) to see how you can implement Force Inclusion Mechanism in your wallet or the [Uncensored Front End](../uncensored-front-end/overview.md) to see how to use the frontend to force include your transaction.
+After you finish reading the above, you can check out the [Uncensored SDK](../uncensored-sdk/overview.md) to see how you can implement Force Inclusion Mechanism in your wallet or the [Uncensored Front End](../uncensored-fe/overview.md) to see how to use the frontend to force include your transaction.

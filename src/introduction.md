@@ -9,8 +9,8 @@ Force Inclusion is a mechanism that allows a L2 user to force transactions into 
 ## Documentation Structure
 
 - If you are interested in learning more about Force Inclusion mechanism and how it is implemented on different L2s, check out the [Research](research/overview.md) section.
-- If you are a developer and devoted to protect your (L2) users from censorship, check out the [Uncensored SDK](sdk/overview.md) section.
-- If you are a user and want to try out Force Inclusion, check out the [Uncensored Frontend](frontend/overview.md) section. Though you should ask your wallet to support Force Inclusion via the [Uncensored SDK](sdk/overview.md) which provides user experience far better than the frontend.
+- If you are a developer and devoted to protect your (L2) users from censorship, check out the [Uncensored SDK](uncensored-sdk/overview.md) section.
+- If you are a user and want to try out Force Inclusion, check out the [Uncensored Frontend](uncensored-fe/overview.md) section. Though you should ask your wallet to support Force Inclusion via the [Uncensored SDK](uncensored-sdk/overview.md) which provides user experience far better than the frontend.
 
 ## Force Inclusion Wallet Demo
 
