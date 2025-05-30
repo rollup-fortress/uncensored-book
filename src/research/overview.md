@@ -6,9 +6,6 @@ Force Inclusion Mechanism allows user to force include their transaction by inte
 
 ![Force Include on L1](../assets/force-include-on-l1.png)
 
-
-Interested reader can read this (Chinese) article on [how Force Inlcusion works and how it is implemented on different L2s](https://medium.com/taipei-ethereum-meetup/rollup-force-inclusion-mechanism-and-implementations-overview-0853ded0dffa).
-
 ## Caveats
 
 1. Force Inclusion guarnatees **"Inclusion"**, not **"Execution"**
